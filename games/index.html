@@ -28,3 +28,40 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
     <a href="#myMap" class="w3-bar-item w3-button">CONTACT</a>
   </div>
 </div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">g<wbr>am<wbr>e<wbr>s</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>g<wbr>am<wbr>e<wbr>s</span>
+    <img align="right" src="https://play-lh.googleusercontent.com/VHB9bVB8cTcnqwnu0nJqKYbiutRclnbGxTpwnayKB4vMxZj8pk1220Rg-6oQ68DwAkqO?raw=true" width="100"></img> 
+    <p><a href="/games/amongus.html" class="w3-button w3-xxlarge w3-white">Among Us [Single-Player]</a></p>
+    </br>
+  </div>
+</header>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Open-source <a href="https://github.com/voept/AUP-Reborn" title="why are you hovering over this, again" target="_blank" class="w3-hover-text-green">here</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
