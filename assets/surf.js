@@ -46,7 +46,7 @@ $('sneakyalloy').onclick = function() {
         url = btoa('http://' + url[0] + '/' + url.slice(1).join('/'));
         console.log(url);
     } else url = btoa(url)
-    frame.src = "https://" + "alloy" + "homework-helper" + "ml" + "/get/" + url;
+    frame.src = "https://" + "alloy." + "homework-helper." + "ml" + "/get/" + url;
     frame.style['visibility'] = "visible";
     document.cookie = 'oldsmobile=badcar; expires=' + (Date.now() + 259200) + '; SameSite=Lax; domain=.' + auth + '; path=/; Secure;';
     document.getElementById('frame').contentWindow.focus();
@@ -61,7 +61,7 @@ $('classicalloy').onclick = function() {
         url = btoa('http://' + url[0] + '/' + url.slice(1).join('/'));
         console.log(url);
     } else url = btoa(url)
-    window.location.href = "https://" + "alloy" + "homework-helper" + "ml" + "/get/" + url;
+    window.location.href = "https://" + "alloy." + "homework-helper." + "ml" + "/get/" + url;
     document.cookie = 'oldsmobile=badcar; expires=' + (Date.now() + 259200) + '; SameSite=Lax; domain=.' + auth + '; path=/; Secure;';
     return false;
 };
