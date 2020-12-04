@@ -66,22 +66,22 @@ $('classicalloy').onclick = function() {
     return false;
 };
 //NODE
-$('nprox').onclick = function() {
+$('sneakynode').onclick = function() {
     var frame = document.getElementById("frame");
     var url = $('url').value;
     var det = document.domain;
     var domain = det.replace('www.', '').split(/[/?#]/)[0];
-    frame.src = "https://a." + domain + "/call/" + url;
+    frame.src = "https://a." + "homework-helper.ml" + "/proxy/" + url;
     frame.style['visibility'] = "visible";
     document.cookie = 'nu_auth=yes; expires=' + (Date.now() + 259200) + '; SameSite=None; domain=.' + auth + '; path=/; Secure;';
     return false;
 };
-$('nproxbp').onclick = function() {
+$('classicnode').onclick = function() {
     var frame = document.getElementById("frame");
     var url = $('url').value;
     var det = document.domain;
     var domain = det.replace('www.', '').split(/[/?#]/)[0];
-    window.location.href = "https://a." + domain + "/call/" + url;
+    window.location.href = "https://a." + "homework-helper.ml" + "/proxy/" + url;
     document.cookie = 'nu_auth=yes; expires=' + (Date.now() + 259200) + '; SameSite=None; domain=.' + auth + '; path=/; Secure;';
     return false;
 };
