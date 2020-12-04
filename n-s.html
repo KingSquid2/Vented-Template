@@ -38,8 +38,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
        <div>
       <form>
     <input class="w3-xlarge" id="url" type="text" name="url" inputmode="url" autocomplete="off"></input>
-    <button onclick="myFunction()" class="w3-xlarge" style="float: right;" id="#">go! [stealth]</button>
-    <button class="w3-xlarge" style="float: right;" id="classicnode">go! [normal]</button>
+    <button class="w3-xlarge" style="float: right;" id="classicnode">go!</button>
   </form>
   <script src="../../assets/surf.js"></script>
   </div>
@@ -64,10 +63,6 @@ function openMenu(evt, menuName) {
   }
   document.getElementById(menuName).style.display = "block";
   evt.currentTarget.firstElementChild.className += " w3-red";
-}
-<script>
-function myFunction() {
-  alert("ERROR: Stealth mode does not currently work with Node.");
 </script>
 
 </body>
