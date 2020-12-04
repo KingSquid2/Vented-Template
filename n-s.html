@@ -36,9 +36,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
       <br>
       <span class="w3-text-white w3-hide-small" style="font-size:35px">Type the link you'd like to surf freely:</span>
        <div>
-     <form class="url w3-xlarge" method="get" action="https://modernnodeunblocker.outersloth.repl.co/proxy/">
-    <input placeholder="https://www.google.com" name="url" id="iurl" type="text">
-    <button class="w3-xlarge" type="submit" id="btn">Go!</button>
+     <form>
+    <input id="url" type="text" name="url" inputmode="url" autocomplete="off"></input>
+    <button style="float: left;" id="albp">Go! [normal]</button>
+    <button style="float: left;" id="al">Go! [stealth]</button>
+  </form>
+  <script src="../../assets/surf.js"></script>
   </div>
 </header>
 
