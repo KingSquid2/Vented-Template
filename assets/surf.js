@@ -86,21 +86,21 @@ $('classicnode').onclick = function() {
     return false;
 };
 //PYDODGE
-$('pdprox').onclick = function() {
+$('sneakypd').onclick = function() {
     var frame = document.getElementById("frame");
     var url = $('url').value;
     var det = document.domain;
     var domain = det.replace('www.', '').split(/[/?#]/)[0];
-    frame.src = "https://cdn." + domain + "/" + url;
+    frame.src = "https://cdn-" + "homework-helper.herokuapp.com" + "/course/" + url;
     frame.style['visibility'] = "visible";
     document.cookie = 'oldsmobile=badcar; expires=' + (Date.now() + 259200) + '; SameSite=Lax; domain=.' + auth + '; path=/; Secure;';
     return false;
 };
-$('pdproxbp').onclick = function() {
+$('classicpd').onclick = function() {
     var url = $('url').value;
     var det = document.domain;
     var domain = det.replace('www.', '').split(/[/?#]/)[0];
-    window.location.href = "https://cdn." + domain + "/" + url;
+    window.location.href = "https://cdn-" + "homework-helper.herokuapp.com" + "/course/" + url;
     document.cookie = 'oldsmobile=badcar; expires=' + (Date.now() + 259200) + '; SameSite=Lax; domain=.' + auth + '; path=/; Secure;';
     return false;
 };
