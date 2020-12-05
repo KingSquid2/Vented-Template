@@ -23,7 +23,7 @@ As you could see, Alloy has stealth and classic mode, but Node doesn't support s
 <image src="images/ss-2.png">
 
 # Deployment
-Deployment is fairly easy, and I've made it easier by adding repl.it integrations. No need to install anything, just deploy, hit start, and go! I've also attached a [video](#video), just incase you don't understand anything I just typed, or you're smol brain hehe
+Deploying your own copy has never been easier, and I've made it easier by adding repl.it integrations. No need to install anything, just deploy, hit start, and go! I've also attached a [video](#video), just incase you don't understand anything I just typed, or you're smol brain hehe
 
 <a href="https://repl.it/github/voept/AUP-Reborn" title="Run on Repl.it"><img alt="Run on Repl.it" src="https://sys32.dev/assets/src/media/replit.svg" width="140" height="30"><img></a>
 
