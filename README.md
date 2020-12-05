@@ -29,7 +29,5 @@ Deploying your own copy has never been easier, and I've made it easier by adding
 
 # Video
 
-<video>
-  <source src="images/Tutorial.mp4" type="video/mp4">
-</video>
+<a href="https://github.com/voept/AUP-Reborn/tree/main/images/Tutorial.mp4"> Here's the link!</p>
 
