@@ -3,6 +3,7 @@
 * [About](#about)
 * [Roadmap](#roadmap)
 * [Deployment](#deployment)
+* [How you are allowed to use this](how-you-are-allowed-to-use-this)
 
 # About
 AUP, better know as Among Us Proxies, is a simple proxy site with the main theme of the popular mafia-style game "Among Us." It features modern tools such as a stealth mode (hides your tab and history), NSFW Unblocker, working Among Us in the web browser, and much more. It has a very sleek, fast, and even lightweight design made solely for server storage. It uses only the most advanced javascript to complete simple things such as surfing on a proxy. With it's iconic animated background, and very cringe name, AUP is for sure going to be your #1 proxy choice!
@@ -30,3 +31,8 @@ Deploying your own copy has never been easier, and I've made it alot easier by a
 # Video
 
 <image src="images/video.gif">
+  
+# How you are allowed to use this
+Since I haven't provided a license with this project, you are <strong>NOT</strong> allowed to modify, and/or distribute this project. I have given anyone and everyone <strong>FULL</strong> permission to copy and deploy their own website from this project, and I have also allowed them to mess around with the links in the surf.js file, but that is it. I reserve the right to strike down, or even take legal action if you modify and/or distribute this project. 
+
+("When you make a creative work (which includes code), the work is under exclusive copyright by default. Unless you include a license that specifies otherwise, nobody else can copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or litigation. Once the work has other contributors (each a copyright holder), “nobody” starts including you.")
