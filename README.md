@@ -24,11 +24,11 @@ As you could see, Alloy has stealth and classic mode, but Node doesn't support s
 <image src="images/ss-2.png">
 
 # Deployment
-Deploying your own copy has never been easier, and I've made it alot easier by adding repl.it integrations. No need to install anything, just deploy, hit start, and go! It can't get any easier, as I have also attached a [VIDEO](#video) for people who do not understand!
+Deploying your own copy has never been easier, and I've made it alot easier by adding repl.it integrations. No need to install anything, just deploy, hit start, and go! It can't get any easier, as I have also attached a VIDEO for people who do not understand!
+
+<strong>(NOTE: All proxies are externally hosted, so you must change that in the surf.js file, see more about this type of modification [here](#copyright))</strong>
 
 <a href="https://repl.it/github/voept/AUP-Reborn" title="Run on Repl.it"><img alt="Run on Repl.it" src="https://sys32.dev/assets/src/media/replit.svg" width="140" height="30"><img></a>
-
-# Video
 
 <image src="images/video.gif">
   
