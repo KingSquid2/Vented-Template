@@ -1,74 +1,82 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Home | Schoology</title>
-  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
-  <!--<script type='text/javascript' src='http://0.0.0.0:8080/scaledrone.js'></script>-->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width"
-  <link rel="shortcut icon" type="image/png" href="images/sf.png"/>
-  <style>
-    body {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 13px;
-      display: flex;
-      flex-direction: column;
-      max-height: 100vh;
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      background-color:#222;
-    }
-
-    .members-count,
-    .members-list,
-    .messages {
-      border: 1px solid #e4e4e4;
-      padding: 15px;
-      margin-bottom: 15px;
-      color: #FFF;
-
-    }
-
-    .messages {
-      flex-shrink: 1;
-      overflow: auto;
-    }
-
-    .message {
-      padding: 5px 0;
-    }
-    .message .member {
-      display: inline-block;
-    }
-
-    .member {
-      padding-right: 10px;
-      position: relative;
-    }
-
-    .message-form {
-      display: flex;
-      flex-shrink: 0;
-    }
-    .message-form__input {
-      flex-grow: 1;
-      border: 1px solid #dfdfdf;
-      padding: 10px 15px;
-      font-size: 16px;
-    }
-    .message-form__button {
-      margin: 10px;
-    }
-  </style>
-</head>
+<title>Home | Schoology</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="shortcut icon" type="image/png" href="images/sf.png"/>
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/bg.gif");
+  min-height: 90%;
+}
+  #frame {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    user-select: none;
+}
+</style>
 <body>
-  <div class="members-count">-</div>
-  <div class="members-list">-</div>
-  <div class="messages"></div>
-  <form class="message-form" onsubmit="return false;">
-    <input class="message-form__input" placeholder="Type a message.." type="text"/>
-    <input class="message-form__button" value="Send" type="submit"/>
-  </form>
-  <script src="assets/script.js"></script>
+<iframe id="frame" style="display:block; visibility: hidden;"></iframe>
+
+  <!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="/index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="ps.html" class="w3-bar-item w3-button">SURF FREELY</a>
+    <a href="games/" class="w3-bar-item w3-button">G<wbr>AME<wbr>S</a>
+    <a href="cb.html" class="w3-bar-item w3-button">CHA<wbr>TBO<wbr>X</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">C<wbr>HAT<wbr>B<wbr>OX</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>C<wbr>HAT<wbr>B<wbr>OX</span>
+       <div>
+      <form>
+    <iframe src="https://titanembeds.com/embed/785269916051701830" height="600" width="800" frameborder="0"></iframe>
+  </div>
+</header>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>AUP 2020</p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+<script>
+document.getElementById("myLink").click();
+</script>
+
 </body>
 </html>
