@@ -46,7 +46,7 @@ $('sneakyalloy').onclick = function() {
         url = btoa('http://' + url[0] + '/' + url.slice(1).join('/'));
         console.log(url);
     } else url = btoa(url)
-    frame.src = "https://" + "alloy." + "homework-helper." + "ml" + "/get/" + url;
+    frame.src = "https://" + "alloy." + domain + "/get/" + url;
     frame.style['visibility'] = "visible";
     document.cookie = 'oldsmobile=badcar; expires=' + (Date.now() + 259200) + '; SameSite=Lax; domain=.' + auth + '; path=/; Secure;';
     document.getElementById('frame').contentWindow.focus();
@@ -61,7 +61,7 @@ $('classicalloy').onclick = function() {
         url = btoa('http://' + url[0] + '/' + url.slice(1).join('/'));
         console.log(url);
     } else url = btoa(url)
-    window.location.href = "https://" + "alloy." + "homework-helper." + "ml" + "/get/" + url;
+    window.location.href = "https://" + "alloy." + domain + "/get/" + url;
     document.cookie = 'oldsmobile=badcar; expires=' + (Date.now() + 259200) + '; SameSite=Lax; domain=.' + auth + '; path=/; Secure;';
     return false;
 };
@@ -71,7 +71,7 @@ $('sneakynode').onclick = function() {
     var url = $('url').value;
     var det = document.domain;
     var domain = det.replace('www.', '').split(/[/?#]/)[0];
-    frame.src = "https://a." + "homework-helper.ml" + "/proxy/" + url;
+    frame.src = "https://a." + domain + "/proxy/" + url;
     frame.style['visibility'] = "visible";
     document.cookie = 'nu_auth=yes; expires=' + (Date.now() + 259200) + '; SameSite=None; domain=.' + auth + '; path=/; Secure;';
     return false;
@@ -81,7 +81,7 @@ $('classicnode').onclick = function() {
     var url = $('url').value;
     var det = document.domain;
     var domain = det.replace('www.', '').split(/[/?#]/)[0];
-    window.location.href = "https://a." + "homework-helper.ml" + "/proxy/" + url;
+    window.location.href = "https://a." + domain + "/proxy/" + url;
     document.cookie = 'nu_auth=yes; expires=' + (Date.now() + 259200) + '; SameSite=None; domain=.' + auth + '; path=/; Secure;';
     return false;
 };
