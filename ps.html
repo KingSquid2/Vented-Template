@@ -42,11 +42,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
       <div class="w3-center">
           <p style="float: left;"><a href="al-s.html" class="w3-button w3-xxlarge w3-white w3-hover-black">Alloy</a></p>
            <p style="float: left;"><a href="n-s.html" class="w3-button w3-xxlarge w3-white w3-hover-black">Node</a></p>
-            <p style="float: left;"><a href="pd-s.html" class="w3-button w3-xxlarge w3-white w3-hover-black">PyDodge</a></p>
         
-    <p onclick="myFunction()" style="float: left;"><a href="#" class="w3-button w3-xxlarge w3-white w3-hover-red">Aurora</a></p>
+            <p onclick="pyFunction()" style="float: left;"><a href="pd-s.html" class="w3-button w3-xxlarge w3-white w3-hover-black">PyDodge</a></p>
         
-    <p onclick="myFunction()" style="float: left;"><a href="#" class="w3-button w3-xxlarge w3-white w3-hover-red">P&zwnj;or&zwnj;n</a></p>
+    <p onclick="auroraFunction()" style="float: left;"><a href="#" class="w3-button w3-xxlarge w3-white w3-hover-red">Aurora</a></p>
   </div>
 </header>
 
@@ -73,14 +72,17 @@ function openMenu(evt, menuName) {
 document.getElementById("myLink").click();
 </script>
     <script>
-function myFunction() {
-  alert("This proxy is either down, or not ready for release, contact Outersloth, or try again later.");
+function auroraFunction() {
+  alert("Aurora hasn't released yet, this will be updated once it is.");
 }
     </script>
       <script>
 function pyFunction() {
-  alert("PyDodge currently has no hosting to keep it up 24/7. If you'd like to pitch in, message me on Discord!");
+  alert("PyDodge is slowly running out of free hours on Heroku, if you can do anything to keep it up, message me on Discord! You will still be redirected until further notice.");
 }
+        <script>
+        function myFunction() {
+  alert("This proxy is down, please try another one, or try again later.");  
     </script>
 </body>
 </html>
