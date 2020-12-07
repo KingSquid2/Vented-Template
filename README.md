@@ -1,4 +1,4 @@
-<h1>AUP (Among Us Proxy)</h1>
+<h1>AUP (Among Us Proxies)</h1>
 
 * [About](#about)
 * [Roadmap](#roadmap)
@@ -7,7 +7,7 @@
 * [Contribute](#contribute)
 
 # About
-AUP, better know as Among Us Proxies, is a simple proxy site with the main theme of the popular mafia-style game "Among Us." It features modern tools such as a stealth mode (hides your tab and history), NSFW Unblocker, working Among Us in the web browser, and much more. It has a very sleek, fast, and even lightweight design made solely for server storage. It uses only the most advanced javascript to complete simple things such as surfing on a proxy. With it's iconic animated background, and very cringe name, AUP is for sure going to be your #1 proxy choice!
+AUP, better know as Among Us Proxies, is a simple proxy site with the main theme of the popular mafia-style game "Among Us." It features modern tools such as a stealth mode (hides your tab and history), NSFW Unblocker, working Among Us in the web browser, a working chatbox, and much more. It has a very sleek, fast, and even lightweight design made solely for server storage. It uses only the most advanced javascript to complete simple things such as surfing on a proxy. With it's iconic animated background, and very cringe name, AUP is for sure going to be your #1 proxy choice!
 
 <image src="images/ss-1.png">
   
