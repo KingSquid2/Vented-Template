@@ -1,4 +1,4 @@
-<h1>AUP (Among Us Proxies)</h1>
+<h1>Vented (formerly known as AUP/Among Us Proxies)</h1>
 
 * [About](#about)
 * [Roadmap](#roadmap)
@@ -7,7 +7,7 @@
 * [Contribute](#contribute)
 
 # About
-AUP, better know as Among Us Proxies, is a simple proxy site with the main theme of the popular mafia-style game "Among Us." It features modern tools such as a stealth mode (hides your tab and history), NSFW Unblocker, working Among Us in the web browser, a working chatbox, and much more. It has a very sleek, fast, and even lightweight design made solely for server storage. It uses only the most advanced javascript to complete simple things such as surfing on a proxy. With it's iconic animated background, and very cringe name, AUP is for sure going to be your #1 proxy choice!
+Vented is a simple proxy site with the main theme of the popular mafia-style game "Among Us." It features modern tools such as a stealth mode (hides your tab and history), NSFW Unblocker, working Among Us in the web browser, a working chatbox, and much more. It has a very sleek, fast, and even lightweight design made solely for server storage. It uses only the most advanced javascript to complete simple things such as surfing on a proxy. With it's iconic animated background, and very cringe name, Vented is for sure going to be your #1 proxy choice!
 
 <image src="images/ss-1.png">
   
@@ -39,4 +39,4 @@ Since I haven't provided a license with this project, you are <strong>NOT</stron
 <strong>("When you make a creative work (which includes code), the work is under exclusive copyright by default. Unless you include a license that specifies otherwise, nobody else can copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or litigation. Once the work has other contributors (each a copyright holder), “nobody” starts including you.")</strong> - Statement via https://choosealicense.com/no-permission/
 
 # Contribute
-If you'd like to contribute to the expansion of AUP, please make a pull request with the things you'd like to add, and also star the repo!
+If you'd like to contribute to the expansion of Vented, please make a pull request with the things you'd like to add, and also star the repo!
