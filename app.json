@@ -3,10 +3,6 @@
   "description": "A sleek, simple, lightweight, and stylish proxy site that uses many flagship proxies to unblock your needs.",
   "repository": "https://github.com/vented-devs/Vented-Template",
   "logo": "https://avatars2.githubusercontent.com/u/75707142?s=200&v=4",
-  "keywords": ["proxy", "bypass", "unblocker"]
-],
-    "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-static.git"
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
+  "keywords": ["proxy", "bypass", "unblocker", "html", "nodejs"]
+  
     }
