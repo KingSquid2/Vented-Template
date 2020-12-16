@@ -9,7 +9,7 @@ Vented is a simple proxy site with the main theme of the popular mafia-style gam
 
 
 # Deployment
-You can easily, and seamlessly deploy your own copy with <strong>3 CLICKS!</strong> Just click the "Deploy to repl.it" button, and code away. You must provide credit, or else I can strike your website down.
+You can easily, and seamlessly deploy your own copy with <strong>3 CLICKS!</strong> Just click a host to deploy to, and code away. You must provide credit, or else I can strike your website down.
 
 <strong>(NOTE: All proxies are locally hosted besides PyDodge, so you must change that in the surf.js file, see more about this type of modification [here](https://github.com/vented-devs/Vented-Template/blob/main/LICENSE))</strong>
 
