@@ -15,4 +15,4 @@ You can easily, and seamlessly deploy your own copy with <strong>3 CLICKS!</stro
 
 [![Run on Repl.it](https://repl.it/badge/github/vented-devs/vented-template)](https://repl.it/github/vented-devs/vented-template)
 <a href="https://heroku.com/deploy?template=https://github.com/vented-devs/Vented-Template"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Heroku"></a>
-<a href="https://glitch.com/edit/#!/import/github/vented-devs/vented-template" title="Remix on glitch"><img alt="Remix on glitch" src="https://sys32.dev/assets/src/media/glitch.svg" width="140" height="30"><img></a>
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/glitchdotcom/starter-discord)
