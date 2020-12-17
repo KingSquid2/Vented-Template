@@ -13,6 +13,6 @@ You can easily, and seamlessly deploy your own copy with <strong>3 CLICKS!</stro
 
 <strong>(NOTE: All proxies are locally hosted besides PyDodge, so you must change that in the surf.js file, see more about this type of modification [here](https://github.com/vented-devs/Vented-Template/blob/main/LICENSE))</strong>
 
-<a href="https://repl.it/github/vented-devs/Vented-Template" title="Run on Repl.it"><img alt="Run on Repl.it" src="https://sys32.dev/assets/src/media/replit.svg" width="140" height="30"><img></a>
+[![Run on Repl.it](https://repl.it/badge/github/vented-devs/vented-template)](https://repl.it/github/vented-devs/vented-template)
 <a href="https://heroku.com/deploy?template=https://github.com/vented-devs/Vented-Template"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Heroku"></a>
 <a href="https://glitch.com/edit/#!/import/github/vented-devs/vented-template" title="Remix on glitch"><img alt="Remix on glitch" src="https://sys32.dev/assets/src/media/glitch.svg" width="140" height="30"><img></a>
